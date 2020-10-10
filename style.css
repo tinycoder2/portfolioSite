@@ -29,6 +29,7 @@ body {
     display: block;
     position: absolute;
     transform: translateX(-50p);
+    height: 100%;
     width: 100%;
 }
 #intro .content{
@@ -55,6 +56,23 @@ body {
 #intro .content h3{
     font-size: 1.5em;
     font-weight: 300;
+}
+#intro .content .socials{
+    padding: 15px;
+}
+
+#intro .content .socials a{
+    color: #ffffff;
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 10px;
+    line-height: 1.25;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    margin: 15px;
 }
 section{
     margin-bottom: 25px;
