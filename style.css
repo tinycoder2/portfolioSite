@@ -29,7 +29,6 @@ body {
     display: block;
     position: absolute;
     transform: translateX(-50p);
-    height: 100%;
     width: 100%;
 }
 #intro .content{
@@ -73,6 +72,14 @@ body {
     border: 1px solid #ffffff;
     border-radius: 100%;
     margin: 15px;
+    transition: all 0.5s linear;
+    transform: scale(1);
+}
+#intro .content .socials a:hover{
+    color: grey;
+    border: 1px solid grey;
+    transform: scale(1.5);
+
 }
 section{
     margin-bottom: 25px;
