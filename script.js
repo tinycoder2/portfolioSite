@@ -1,4 +1,3 @@
-//wait till the dom is ready
 $(function () {
     var roles = ["artist", "dancer", "vitian"];
     var count = 0;
