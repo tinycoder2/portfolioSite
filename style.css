@@ -2,12 +2,21 @@ html,
 body{
     height: 100%;
 }
+body {
+    background-image: url('https://i.imgur.com/COtSoAk.jpg');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: center;
+    background-size: cover;
+  }
+
 body,
 input {
     font-family: 'Montserrat';
 }
 body {
     padding-top: 50px;
+    padding-bottom: inherit;
 }
 #intro {
     position: relative;
@@ -25,6 +34,8 @@ body {
     background-color: rgba(0, 0, 0, 0.4);
     z-index: 2;
 }
+
+
 #intro img{
     display: block;
     position: absolute;
