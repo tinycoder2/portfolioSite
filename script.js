@@ -1,5 +1,5 @@
 $(function () {
-    var roles = ["artist", "dancer", "vitian"];
+    var roles = ["Artist", "Dancer", "Student"];
     var count = 0;
     setInterval(() => {
         $("#intro .content h2 span").fadeOut("fast", function () {
