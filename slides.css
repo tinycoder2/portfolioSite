@@ -1,0 +1,11 @@
+body,
+input {
+    font-family: 'Montserrat';
+        }
+
+.card {
+     background-color: #ffffe6;
+    padding: 20px;
+    margin: 70px 70px 70px 70px;
+    border-radius: 15px;
+     }
