@@ -1,6 +1,7 @@
 html,
 body{
     height: 100%;
+    
 }
 
 
@@ -9,7 +10,7 @@ input {
     font-family: 'Montserrat';
 }
 body {
-    padding-top: 50px;
+    
     padding-bottom: inherit;
 }
 #intro {
@@ -61,29 +62,7 @@ body {
     font-weight: 300;
 }
 
-.typist-blink {
-    font-weight: 800
-}
-.typist-blink:after {
-    position: relative;
-    top: 6px;
-    display: inline-block;
-    height: 30px;
-    margin-right: 7px;
-    margin-left: 3px;
-    content: ' ';
-    -webkit-animation: blink 1s step-start 0s infinite;
-    animation: blink 1s step-start 0s infinite;
-    border-right: 2px solid
-}
-.typist-blink>.selectedText {
-    display: none
-}
-.typist-mark>.selectedText {
-    font-style: normal;
-    color: #fff;
-    background-color: #222
-}
+
 
 #intro .content .socials{
     padding: 15px;
