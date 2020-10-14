@@ -108,6 +108,7 @@ section h2{
     padding: 20px;
     margin: 70px 70px 70px 70px;
     border-radius: 15px;
+    text-align: center;
     }
 
 .center {
@@ -147,46 +148,3 @@ section h2{
   }
   
 
-
-  .slide-container {
-    text-align: center;
-    margin: 75px;
-    padding: 0px 50px 0px 50px;
-    /*background-color: #ffffe6;
-    border-radius: 15px;*/
-  }
-  .slide-container .slides {
-    display: inline-block;
-    /*border: 1px solid #ccc;*/
-    overflow: hidden;
-    padding: 5px;
-    border-radius: 15px;
-  }
-  .slide-container .slides img {
-    display: block;
-    border-radius: 15px;
-    max-width: 100%;
-    max-height: 50%;
-
-  }
-  .slide-container .slides .hidden {
-    display: none;
-  }
-  .slide-container .pager {
-    text-align: center;
-    display: block;
-    padding: 10px;
-  }
-  .slide-container .pager li {
-    margin: 15px 5px;
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border: 1px solid #ccc;
-    border-radius: 100%;
-    padding: 5px;
-    transition: all 0.5s linear;
-  }
-  .slide-container .pager li.active {
-    background-color: #ccc;
-  }
