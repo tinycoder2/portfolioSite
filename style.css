@@ -150,19 +150,23 @@ section h2{
 
   .slide-container {
     text-align: center;
-    margin: 15px;
+    margin: 75px;
+    padding: 0px 50px 0px 50px;
+    /*background-color: #ffffe6;
+    border-radius: 15px;*/
   }
   .slide-container .slides {
     display: inline-block;
-    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
     overflow: hidden;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 15px;
   }
   .slide-container .slides img {
     display: block;
-    border-radius: 5px;
+    border-radius: 15px;
     max-width: 100%;
+    max-height: 50%;
   }
   .slide-container .slides .hidden {
     display: none;
@@ -183,5 +187,5 @@ section h2{
     transition: all 0.5s linear;
   }
   .slide-container .pager li.active {
-    background-color: #000;
+    background-color: #ccc;
   }
