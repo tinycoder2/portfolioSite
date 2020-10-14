@@ -94,6 +94,34 @@ body {
     transform: scale(1.5);
 
 }
+/* again */
+
+#education .card .socials{
+  padding: 15px;
+}
+
+#education .card .socials a{
+  color: black;
+  display: inline-block;
+  font-size: 1.5em;
+  padding: 10px;
+  line-height: 1.25;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border: 1px dotted black;
+  border-radius: 100%;
+  margin: 15px;
+  transition: all 0.5s linear;
+  transform: scale(1);
+}
+#education .card .socials a:hover{
+  color: grey;
+  border: 1px solid grey;
+  transform: scale(1.5);
+
+}
+
 section{
     margin-bottom: 25px;
 }
